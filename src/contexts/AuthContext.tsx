@@ -1,6 +1,6 @@
 
 import React, { createContext, useContext, useState, ReactNode } from 'react';
-import { toast } from '@/components/ui/sonner';
+import { toast } from 'sonner';
 
 export type UserRole = 'student' | 'committee-head' | 'exam-cell' | null;
 
